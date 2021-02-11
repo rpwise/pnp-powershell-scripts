@@ -13,5 +13,3 @@ $arrayVariable += $customObject
 
 # export array to csv
 $arrayVariable | Export-Csv -NoTypeInformation -Encoding UTF8 -Path "C:\export.csv"
-
-# testing a change to the file
