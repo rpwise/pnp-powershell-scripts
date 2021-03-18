@@ -12,3 +12,9 @@ $results = submit-pnpsearchquery $query;
 
 # execute search query (all)
 #$results = submit-pnpsearchquery $query -all;
+
+foreach ($result in $results.resultrows) {
+
+    # do stuff here
+    
+}
